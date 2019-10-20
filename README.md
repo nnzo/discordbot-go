@@ -12,10 +12,12 @@ A simple example of a Discord Bot in Go.
 
 This assumes you already have a working Go installation.
 
-`git clone https://github.com/AtomicLemon/discordbot-go` Clone the repository
+Clone the repository: `git clone https://github.com/AtomicLemon/discordbot-go`
 
 `cd discordbot-go`
 
-`go build` Build
+Get discordgo library: `go get github.com/bwmarrin/discordgo`
+
+Build program: `go build`
 
 On Windows, run `./main.exe -t YOUR-BOT-TOKEN` or on unix, use `./main -t YOUR-BOT-TOKEN`
